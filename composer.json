@@ -1,0 +1,17 @@
+{
+  "name": "adt1710/buscador-cursos",
+  "description": "Projeto que busca cursos no site da Alura",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Adriano Dias Torralvo",
+      "email": "adrianoibira.adt@gmail.com"
+    }
+  ],
+  "type": "library",
+  "require": {
+    "guzzlehttp/guzzle": "*",
+    "symfony/dom-crawler": "*"
+  }
+}
