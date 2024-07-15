@@ -10,8 +10,10 @@
     }
   ],
   "type": "library",
+  "version": "1.0",
   "require": {
-    "guzzlehttp/guzzle": "*",
-    "symfony/dom-crawler": "*"
+    "guzzlehttp/guzzle": "^7.8",
+    "symfony/dom-crawler": "^7.1",
+    "symfony/css-selector": "^7.1"
   }
 }

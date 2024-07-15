@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'adt1710/buscador-cursos',
-        'pretty_version' => 'dev-master',
-        'version' => 'dev-master',
-        'reference' => 'f914f1ad2b643de0d0d4de513fe432a23ee0b925',
+        'pretty_version' => '1.0',
+        'version' => '1.0.0.0',
+        'reference' => null,
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'adt1710/buscador-cursos' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
-            'reference' => 'f914f1ad2b643de0d0d4de513fe432a23ee0b925',
+            'pretty_version' => '1.0',
+            'version' => '1.0.0.0',
+            'reference' => null,
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -106,6 +106,15 @@
             'reference' => '120b605dfeb996808c31b6477290a714d356e822',
             'type' => 'library',
             'install_path' => __DIR__ . '/../ralouphie/getallheaders',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'symfony/css-selector' => array(
+            'pretty_version' => 'v7.1.1',
+            'version' => '7.1.1.0',
+            'reference' => '1c7cee86c6f812896af54434f8ce29c8d94f9ff4',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/css-selector',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
