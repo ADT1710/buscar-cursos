@@ -24,7 +24,7 @@ return [
     'directory_list' => [
         'src',
         'vendor/symfony/dom-crawler',
-        'vendor/guzzlehttp',
+        'vendor/guzzlehttp/guzzle',
         'vendor/psr/http-message'
     ],
 

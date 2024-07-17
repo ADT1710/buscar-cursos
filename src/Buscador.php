@@ -3,7 +3,6 @@
 namespace Alura\BuscadorDeCursos;
 
 use GuzzleHttp\ClientInterface;
-use GuzzleHttp\Exception\GuzzleException;
 use Symfony\Component\DomCrawler\Crawler;
 
 class Buscador
@@ -17,9 +16,6 @@ class Buscador
         $this->httpClient = $httpClient;
     }
 
-    /**
-     * @throws GuzzleException
-     */
     public function buscar(string $url): array
     {
         // Pega HTML
