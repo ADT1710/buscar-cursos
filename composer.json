@@ -32,9 +32,13 @@
     "test": "phpunit tests\\BuscardorDeCursos.php",
     "cs": "phpcs --standard=PSR12 src\\",
     "phan": "phan --allow-polyfill-parser src\\Buscador.php",
+    "ls": "dir",
     "check": [
       "@phan",
       "@cs"
+    ],
+    "post-update-cmd": [
+      "@check"
     ]
   },
   "scripts-descriptions": {
